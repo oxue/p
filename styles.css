@@ -1,0 +1,31 @@
+#place-div {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    
+}
+
+#spinner-div {
+    position: absolute;
+    z-index: 1;
+    width: 62.5px;
+    height: 62.5px;
+    visibility: hidden;
+}
+
+#spinner-img {
+    max-width: 100%;
+}
+
+#place-canvas {
+    image-rendering: pixelated;
+    width: 8px;
+    height: 8px;
+    border-Color: black;
+    border-Width: 1px ;
+    border-Style: solid;
+    min-width:  100%;
+    min-height: 100%;
+};
+
+
